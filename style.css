@@ -57,7 +57,7 @@ h1 {
 .slide {
 
     display: flex;
-    margin: 30px;
+    margin: 10px;
 }
 
 #h1-alain {
@@ -65,8 +65,29 @@ h1 {
     font-size: 50px;
 }
 
-#first-slide {}
+#first-slide {
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 35%;
+    border-radius: 8px;
 
-#secound-slide {}
+}
 
-#third-slide {}
+#secound-slide {
+    background-color: aqua;
+    padding: 20px;
+    width: 35%;
+    border-radius: 8px;
+}
+
+#third-slide {
+    background-color: aquamarine;
+    padding: 20px;
+    width: 35%;
+    border-radius: 8px;
+}
+
+#img-size {
+    width: 150px;
+    height: 150px;
+}
